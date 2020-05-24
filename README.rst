@@ -47,7 +47,7 @@ To use this code,
 .. code-block::
 
     from pydisp import disp
-    phase = (thk,vp,vs,rho,freqs,modetype=1,phasetype=0,dc=1e-3)
+    phase = disp(thk,vp,vs,rho,freqs,modetype=1,phasetype=0,dc=1e-3)
     # thk, vp, vs, rho are 1D arrays with same size
     # freqs is a 1D array of frequencies
     # modetype: 1 for Rayleigh wave, 0 for Love wave
