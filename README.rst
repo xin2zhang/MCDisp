@@ -57,4 +57,4 @@ To use this code,
 Examples
 ----------
 
-Please look through examples in the examples folder and two jupyter-notebooks: `Dispersion.ipynb <https://github.com/xin2zhang/MCDisp/blob/master/examples/Dispersion.ipynb>`__.
+Please look through the jupyter-notebook: `Dispersion.ipynb <https://github.com/xin2zhang/MCDisp/blob/master/example/Dispersion.ipynb>`__ in the example folder.
