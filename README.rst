@@ -2,7 +2,7 @@
 MCDisp
 ============
 
-Dispersion curve inversion using Monte Carlo sampling
+Surface wave dispersion curve inversion using Monte Carlo sampling
 
 Installation
 --------------
@@ -46,4 +46,4 @@ This code provides a Python interface for the original Fortran code.
 Examples
 ----------
 
-Please look through examples in the examples folder and two jupyter-notebooks: `Variational_Tomo2d.ipynb <https://github.com/xin2zhang/VarTomo/blob/master/examples/Variational_Tomo2d.ipynb>`__ and `VariationalFWI.ipynb <https://github.com/xin2zhang/VarTomo/blob/master/examples/VariationalFWI.ipynb>`__.
+Please look through examples in the examples folder and two jupyter-notebooks: `Dispersion.ipynb <https://github.com/xin2zhang/MCDisp/blob/master/examples/Dispersion.ipynb>`__.
