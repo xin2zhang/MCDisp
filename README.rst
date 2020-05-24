@@ -41,7 +41,7 @@ Modal approximation
 --------------
 
 The 1d modal approximation code used to compute dispersion curves is from Computer Program in Seismology (CPS, http://www.eas.slu.edu/eqc/eqccps.html).
-This code provides a Python interface for the original Fortran code.
+This package provides a Python interface for the original Fortran code.
 To use this code,
 
 .. code-block::
