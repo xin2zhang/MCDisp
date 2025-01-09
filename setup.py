@@ -29,7 +29,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-    ext_modules=cythonize(ext_modules),
+    ext_modules=cythonize(ext_modules, compiler_directives={'language_level':3}),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: GNU License"
