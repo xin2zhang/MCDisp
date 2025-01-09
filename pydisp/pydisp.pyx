@@ -1,3 +1,4 @@
+# cython: language_level=3
 import numpy as np
 cimport numpy as np
 
@@ -23,8 +24,8 @@ def disp(np.ndarray[double, ndim=1, mode="c"] thick not None,
         dc       : the spacing of phase velocity which is used to search phase velocities 
     '''
 
-    n = thick.shape[0]
-    nfreqs = freqs.shape[0]
+    cdef int n = thick.shape[0]
+    cdef int nfreqs = freqs.shape[0]
     cdef np.ndarray[double, ndim=1, mode="c"] phase = np.empty(nfreqs,dtype=np.float64)
 
     c_disp96(&n, &thick[0], &vp[0], &vs[0], &rho[0], &nfreqs, &freqs[0], &modetype, &phasetype, &dc, &phase[0])
